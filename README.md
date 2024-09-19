@@ -6,7 +6,7 @@
 **a**
 With Unity's physics engine, it can detect when two objects box colliders come into contact. There are several methods to detect contact, but to detect initial collition we use OnCollisionEnter in a script. The method takes in 'other' as a parameter which we can use to see which object has collided with it. 
 
-**b**
+**b**\n
 TRUE, each object uses the script in its own context, so it will only detect collisions for that specific object.
 
 **c**
